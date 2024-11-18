@@ -3,7 +3,7 @@
 - NAME: Mollie Hamman
 - Date: 11-17-2024
 
--                                                         for N=10000
+#                                                         for N=10000
 - for both insertion and search:      2log(N)             2log(10000) = 26.5754248
 - for insertion:                      log(N)              log(10000)  = 13.2877124
 - for search:                         log(N)              log(10000)  = 13.2877124
