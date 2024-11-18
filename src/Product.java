@@ -27,4 +27,12 @@ public class Product implements Comparable<Product> {
     public int compareTo(Product product) {
         return this.uniqueID.compareTo(product.uniqueID);
     }
+
+    @Override
+    public String toString() {
+        return ("\nUserID: " + uniqueID
+                + "\nName: " + name
+                + "\nCategory: " + category
+                + "\nPrice: " + price);
+    }
 }
