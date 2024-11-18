@@ -12,10 +12,10 @@
 Once 10,000 products are inserted into a tree, there are roughly 13 levels to it, making insertion or search log(N).
 Worst case (being that the product is at the bottom of the tree) is that you have to descend the tree down 13 levels in order to find or insert a product.
 
-![Insertion Output]("Insertion.png")
-![Search Output]("Search.png")
-
 # OUTPUT:
+![Insertion Output](Insertion.png)
+![Search Output](Search.png)
+
 * * * Menu * * *
 I - Insertion
 S - Search
